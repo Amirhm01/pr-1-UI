@@ -1,0 +1,611 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: MADE-TOMMY;
+    src: url(font/made_tommy/MADE\ TOMMY.otf)
+}
+
+@font-face {
+    font-family: MADE-TOMMY-2;
+    src: url(font/made_tommy/MADE\ TOMMY\ 2.otf);
+}
+
+
+
+
+/* ================================first-page================================ */
+/* ================================first-page================================ */
+
+.firstpage {
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid solid;
+}
+
+.header {
+    position: absolute;
+    top: 2%;
+    width: 100%;
+    height: 15%;
+}
+
+.addlisting {
+    background-color: rgb(104, 56, 238);
+    color: white;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    border-radius: 5px;
+    font-family: MADE-TOMMY-2;
+    text-align: center;
+    display: inline-block;
+    padding: 1.2%;
+}
+
+.addlisting label {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.addlisting img {
+    width: 18%;
+}
+
+.headlink {
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    right: 22%;
+    width: 55%;
+    padding: 1.1% 0.5%;
+
+}
+
+.headlink a {
+    font-family: MADE-TOMMY;
+    font-size: 25px;
+    margin: 0 3%;
+    text-decoration: none;
+    color: black;
+}
+
+.headlink a:hover {
+    border-bottom: 2px solid rgb(104, 56, 238);
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.lego {
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    right: 80%;
+    width: 15%;
+}
+
+.lego img {
+    width: 20%;
+}
+
+.lego h1 {
+    display: inline;
+    font-size: 40px;
+    font-weight: lighter;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+
+}
+
+
+.title {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    width: 40%;
+    height: 36%;
+}
+
+.title h1 {
+    font-size: 100px;
+}
+
+.title h2 {
+    font-family: MADE-TOMMY;
+    font-size: 25px;
+    color: rgb(99, 99, 99);
+}
+
+/* main img */
+#main-img {
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    width: 35%;
+    height: 70%;
+}
+
+/* main img */
+
+/* ================================Search================================ */
+.search {
+    background-color: white;
+    border: 0.5px solid rgb(174, 149, 243);
+    border-radius: 5px;
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    font-family: MADE-TOMMY;
+    width: 40%;
+    height: 12%;
+}
+
+.search input {
+    background-color: rgb(104, 56, 238);
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    font-size: 20px;
+    color: white;
+    padding: 2.5% 6%;
+    border: none;
+    border-radius: 5px;
+}
+
+#home-search-box-icon {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 3%;
+}
+
+#home-search-box-text {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#location-search-box-icon {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 3%;
+}
+
+#location-search-box-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* statistics */
+.statistics {
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    width: 32%;
+    height: 4%;
+}
+
+.statistics P {
+    display: inline-block;
+    color: rgb(99, 99, 99);
+    font-family: MADE-TOMMY;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 3%;
+}
+
+.statistical-numbers {
+    position: absolute;
+    top: 83%;
+    left: 8%;
+    width: 32%;
+    height: 6%;
+}
+
+.statistical-numbers P {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 7%;
+}
+
+
+/* ================================Second-page================================ */
+/* ================================Second-page================================ */
+
+
+.secondpage {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.page-title-2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 60px;
+}
+
+.page-title-text-2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+    color: rgb(99, 99, 99);
+    font-family: MADE-TOMMY;
+
+}
+
+.services-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    height: 45%;
+}
+
+
+/* ==================default-services-code================== */
+
+.services-2 div {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width: 25%;
+    height: 80%;
+    text-align: center;
+}
+
+.services-2 div:hover {
+    box-shadow: 0px 10px 40px 0px rgb(227, 227, 227);
+}
+
+
+.services-div-title {
+    color: black;
+    margin: 20% 0 0 0;
+    font-size: 27px;
+    margin: 8% 0 0 0;
+}
+
+.services2-div-text {
+    margin: 4% 0 0 0;
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+    font-family: MADE-TOMMY;
+}
+
+.learn-more {
+    color: rgb(104, 56, 238);
+    margin: 10% 0 0 0;
+    font-size: 25px;
+    font-family: MADE-TOMMY-2;
+}
+
+
+
+/* ==================sell-your-home=================== */
+
+.sell-your-home {
+    margin: 0 0 0 3%;
+}
+
+.sell-your-home img {
+    margin: 5% 0 0 0;
+    width: 18%;
+}
+
+
+/* ==================buy-your-home=================== */
+
+.buy-your-home {
+    background-color: #fff9f6;
+    margin: 0 0 0 33%;
+
+}
+
+.buy-your-home img {
+    margin: 5% 0 0 0;
+    width: 21%;
+}
+
+/* ==================legal-services=================== */
+
+.legal-services {
+    background-color: #f7fef9;
+    margin: 0 0 0 63%;
+}
+
+.legal-services img {
+    margin: 5% 0 0 0;
+    width: 15%;
+}
+
+
+/* ================================third-page================================ */
+/* ================================third-page================================ */
+
+.thirdpage {
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    height: 120%;
+    text-align: center;
+}
+
+.page-title-3 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 60px;
+}
+
+.page-title-text-3 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+    color: rgb(99, 99, 99);
+    font-family: MADE-TOMMY;
+
+}
+
+.haedlink-3 {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    padding: 2% 0;
+}
+
+.haedlink-3 button {
+    display: inline-block;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    font-family: MADE-TOMMY-2;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 1.5% 6.6%;
+    margin: 0 -0.2%;
+}
+
+.haedlink-3 button:hover {
+    border-bottom: 3px solid rgb(104, 56, 238);
+    color: rgb(104, 56, 238);
+    margin: -0.2% -0.2%;
+}
+
+
+/* =================== */
+
+.house {
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 15px;
+    position: absolute;
+    top: 55%;
+    left: 13%;
+    transform: translate(-9.2%, -50%);
+    text-align: left;
+    overflow: hidden;
+    width: 39%;
+    height: 25%;
+}
+
+.house img {
+    position: absolute;
+    top: 50%;
+    left: 2.5%;
+    transform: translate(0%, -50%);
+    width: 40%;
+}
+
+.house-div-title {
+    position: absolute;
+    top: 10%;
+    left: 47%;
+    font-family: MADE-TOMMY-2;
+    font-size: 30px;
+}
+
+.house-div-price {
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    font-family: MADE-TOMMY-2;
+    font-size: 25px;
+    color: rgb(104, 56, 238);
+}
+
+#house-div-location-icon{
+    position: absolute;
+    top: 53%;
+    left: 48%;
+    width: 2.5%;
+    height: 7.6%;
+}
+
+#house-div-location-text {
+    position: absolute;
+    top: 49%;
+    left: 51.5%;
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+    font-family: MADE-TOMMY;
+}
+
+#house-div-Information{
+    position: absolute;
+    top: 65%;
+    left: 47%;
+    font-size: 17px;
+    color: rgb(99, 99, 99);
+    font-family: MADE-TOMMY;
+}
+
+.house-div-button{
+    border: 0.5px solid rgb(104, 56, 238);
+    background: none;
+    color: rgb(104, 56, 238);
+    position: absolute;
+    top: 77%;
+    left: 47%;
+    font-size: 20px;
+    padding: 2% 2.5%;
+    border-radius: 5px;
+}
+.house-div-button:hover{
+    background-color: rgb(104, 56, 238);
+    color: white;
+}
+
+
+#house-div2 {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+}
+
+#house-div3 {
+    position: absolute;
+    top: 84%;
+    left: 55%;
+}
+
+#house-div4 {
+    position: absolute;
+    top: 84%;
+    left: 13%;
+}
+
+
+/* ================================fourth-page================================ */
+/* ================================fourth-page================================ */
+
+.fourthpage {
+    position: absolute;
+    top: 320%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.page-title-4 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 60px;
+}
+
+.page-title-text-4 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+    color: rgb(99, 99, 99);
+    font-family: MADE-TOMMY;
+
+}
+
+.services-4 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    height: 45%;
+}
+
+
+/* ==================default-services-code================== */
+
+.services-4 div {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width: 27%;
+    height: 100%;
+    text-align: center;
+}
+
+.services-4 div:hover {
+    box-shadow: 0px 10px 40px 0px rgb(227, 227, 227);
+}
+
+.services4-div-text {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    margin: 4% 0 0 0;
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+    font-family: MADE-TOMMY-2;
+}
+
+/* ==================quick-process=================== */
+
+.quick-process {
+    margin: 0 0 0 3%;
+}
+
+.quick-process img {
+    margin: 5% 0 0 0;
+    width: 18%;
+}
+
+
+/* ==================best-price=================== */
+
+.best-price {
+    background-color: #edf6ff;
+    margin: 0 0 0 33%;
+
+}
+
+.best-price img {
+    margin: 5% 0 0 0;
+    width: 21%;
+}
+
+/* ==================trusted-by-thousands=================== */
+
+.trusted-by-thousands {
+    background-color: #f8f7fe;
+    margin: 0 0 0 63%;
+}
+
+.trusted-by-thousands img {
+    margin: 5% 0 0 0;
+    width: 26%;
+}
